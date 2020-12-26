@@ -24,11 +24,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     color: #fff;
     cursor: pointer;
     flex: 0.5;
-    margin: 10px;
+    margin: 0.625rem;
     position: relative;
     transition: flex 0.7 ease-in;
+}
+
+.panel h3 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    margin: 0;
+    opacity: 0;
 }
